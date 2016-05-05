@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.paypal.sdk</groupId>
     <artifactId>rest-api-sdk</artifactId>
-    <version>1.4.2</version>
+    <version>1.4.3</version>
     <packaging>jar</packaging>
     <name>REST API SDK</name>
     <description>PayPal SDK for integrating with the REST APIs</description>
@@ -13,16 +13,19 @@
         <url>https://github.com/paypal/rest-api-sdk-java.git</url>
     </scm>
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>${sonatypeOssDistMgmtSnapshotsUrl}</url>
-        </snapshotRepository>
-        <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>${sonatypeNexusStagingUrl}</url>
-        </repository>
+<!--         <snapshotRepository> -->
+<!--             <id>sonatype-nexus-snapshots</id> -->
+<!--             <name>Sonatype Nexus Snapshots</name> -->
+<!--             <url>${sonatypeOssDistMgmtSnapshotsUrl}</url> -->
+<!--         </snapshotRepository> -->
+<!--         <repository> -->
+<!--             <id>sonatype-nexus-staging</id> -->
+<!--             <name>Nexus Release Repository</name> -->
+<!--             <url>${sonatypeNexusStagingUrl}</url> -->
+<!--         </repository> -->
+
+<!--  FOR INTERNAL NEXUS DEPLOYS, INSERT REPOSITORY HERE AND KEEP AND DON'T COMMIT -->
+
     </distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
